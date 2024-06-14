@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        position: 0;
+    }
+    .main{
+           width: 100%;
+           /* margin: 0;
+           padding: 0; */
+    }
+    #position_container{
+                height: 100vh;
+                width: 100%;
+                background-color: red;
+                background-image:repeating-radial-gradient(red 0deg,red 40deg,yellow 40deg,yellow 40.06deg);
+                  position: relative; 
+    }
+    nav{
+        height: 10vh;
+        width: 100%;
+        background-color: brown;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        /* position: relative;  */
+        /* position: absolute; */
+    }
+    #heading{
+        color: white;
+        padding-left: 10px;
+        width: 30vw;
+        /* display: flex; */
+        align-items: center;
+        justify-content: space-between;
+        /* padding-top: 15px; */
+        padding-left: 100px;
+          /* padding-top: 200px;   */
+          position: relative;;
+
+    }
+    #style{
+        padding-top:100px ;
+    }
+    #img{
+        margin-left: 600px;
+        margin-bottom: 100px;
+        height: 60px;
+        width: 50px;
+        margin: 10px;
+        padding-bottom: 800px; 
+        padding-left: 800px;
+        position: absolute;
+        top: 30px;
+
+    }
+    #second{
+        height: 100vh;
+        width: 100%;
+        margin_bottom: 20px;
+        padding-left: 5px;
+        font-family: 'Times New Roman', Times, serif;
+        
+    } 
+    #image{
+        
+        background-repeat: no-repeat;
+        padding-left: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+   
+    #third{
+        height: 80vh;
+        width: 100%;
+        background-color: red;
+        padding-left: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        font-family: 'Times New Roman', Times, serif;
+        padding-left:20px;
+        /* font-size: 20px; */
+    }
+    #brand{
+        padding-top: 50px;
+    }
+    /* p{
+        width: 30vw;
+        
+    } */
+     #shoe{
+        
+        padding-left:100px;
+        padding-bottom: 50px;
+          margin-right: 600px;
+          margin-bottom: 100px;
+        height: 50px;
+         width: 50px;  
+         padding-bottom: 200px;
+         padding-left: 200px;
+     }   
+
+     #Name{
+        width: 100%;
+        height: 40vh;
+        display: flex;
+        justify-content: space-between;
+        margin: 10px;
+
+     }
+#fourth{
+    height: 120vh;
+    width: 100%;
+    margin-top: 10px;
+    background-color: gray;
+    margin-top: 5px;
+}
+#img2{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+#websites{
+    height: 40vh;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+    margin: 100px;
+    padding-right: 50px;
+}
+
+#Running{
+    height: 100vh;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    justify-content: space-around;
+    
+}
+#new{
+    margin: 20px;
+    padding-top: 80px;
+
+}
+#new1{
+    padding-top: 200px;
+    padding-right: 50px;
+    color: white;
+}
+
+#Nature{
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+    margin: 50px;
+}
+#leaves{
+    height:20px;
+    width: 80px;
+    padding-left: 800px;
+}
+#present{
+    height: 80vh;
+    width: 100%;
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding-left: 20px;
+}
+#productimg{
+    display: flex;
+    justify-content: flex-start;
+}
+footer>nav{
+
+}
+
+#natd1{
+    width: 50%;
+    height: 40vh;
+    font-size: 20px;
+    color: black;
+    align-items: center;
+    justify-content: space-around;
+}
+#dev{
+        display: flex;
+        justify-content: space-between;
+        
+        border: 2px solid black;
+        border-top-color: white;
+        border-right-color: white;
+        border-left-color: white;
+}
+#eng{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+        border-top-color: white;
+        border-right-color: white;
+        border-left-color: white;
+}
+
+#des{
+    display: flex;
+    justify-content: space-between;
+   
+    border: 2px solid black;
+        border-top-color: white;
+        border-right-color: white;
+        border-left-color: white;
+
+}
+
+</style>
+<body>
+    <div class="main">
+    <div id="position_container">
+        <nav>
+            <div> HOME</div>
+            <div>CLIENTS</div>
+            <div>BLOG</div>
+             <div>NEW RELEASE</div>
+        </nav>
+        
+        <div id="heading">
+            <div id="style">
+                <h1 style="font-size: 20px;">OUR PRODUCT</h1>
+                <p style="font-size: 50px; font-family: 'Times New Roman', Times, serif;">Best shoes just for you</p>
+                <p style="font-size: 20px;">Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Donec rutrum congue leo eget malesuada.</p>
+                <button style="width: 150px; height: 50px;">View More</button>
+            </div>
+            <div id="img">
+                <img src="https://mobirise.com/extensions/showcasem5/product-presentation/assets/images/image6-400x500.jpg" alt="">
+            </div>
+        </div>
+        
+    </div>
+
+    <div id="second">
+        <div>LOREM ANTE IOS</div>
+            <h1>Choose your style</h1>
+        <div id="image">
+        <div>
+            <img src="https://mobirise.com/extensions/showcasem5/product-presentation/assets/images/image8-1-400x500.jpg" alt="">
+            <p>Shoes</p>
+        </div>
+        <div>
+            <img src="https://mobirise.com/extensions/showcasem5/product-presentation/assets/images/image6-400x500.jpg" alt="">
+            <p>Running Sneakers</p>
+        </div>
+        <div>
+            <img src="https://mobirise.com/extensions/showcasem5/product-presentation/assets/images/image2-1-400x500.jpg" alt="">
+            <p>Sneakers</p>
+        </div>
+    </div>
+    <!-- </div> -->
+
+    <div id="third">
+        <div id="brand">
+            <h1 style="font-size: 50px;">Stylish</h1>
+            <p style="font-size: 30px;">Sport</p>
+            <p style="font-size: 20px;">Ea viris munere intellegam pro, sanctus iudicabit persecuti. Habeo accusamus quo id, rebum epicurei intellegat. </p>
+            <button style="height: 50px; width: 120px;">Read More</button>
+        </div>
+        <div id="shoe">
+            <img src="https://mobirise.com/extensions/showcasem5/product-presentation/assets/images/image9-1050x700.jpg" alt="" height="400px",width="400px">
+        </div>
+    </div>
+    <!-- </div> -->
+
+    <div id="Name">
+            <div>
+                 <img src="https://mobirise.com/extensions/showcasem5/product-presentation/assets/images/1.png" alt="">
+            </div>
+            <div>
+                 <img src="https://mobirise.com/extensions/showcasem5/product-presentation/assets/images/2.png" alt="">
+            </div>
+            <div>
+              <img src="https://mobirise.com/extensions/showcasem5/product-presentation/assets/images/3.png" alt="">
+            </div>
+            <div>
+                <img src="https://mobirise.com/extensions/showcasem5/product-presentation/assets/images/4.png" alt="">
+            </div>
+            <div>
+                <img src="https://mobirise.com/extensions/showcasem5/product-presentation/assets/images/2.png" alt="">
+            </div>
+    </div>
+    
+
+    <div id="fourth">
+        <div>
+            <p>ABOUT THE BRAND</p>
+            <h1>Our blog</h1>
+                <div id="img2">
+                    <div>
+                        <img src="https://mobirise.com/extensions/showcasem5/product-presentation/assets/images/image2-400x500.jpg" alt="">
+                        <p>August 25, 2021</p>
+                        <h1>Design Better</h1> 
+                        <p> Eu mea audiam equidem, has ad dolore officiis. No zril solet minimum sit.</p>
+                        <button style="height: 50px; width: 120px;">Read More</button>
+                    </div>
+
+                    <div>
+                         <img src="https://mobirise.com/extensions/showcasem5/product-presentation/assets/images/image6-400x500.jpg" alt="">
+                         <p>August 29, 2021</p>
+                         <h1>Brand New Look</h1>
+                         <p>Eu mea audiam equidem, has ad dolore officiis. No zril solet minimum sit.</p>
+                         <button style="height: 50px; width: 120px;">Read More</button>
+                    </div>
+
+                    <div>
+                          <img src="https://mobirise.com/extensions/showcasem5/product-presentation/assets/images/image8-400x500.jpg" alt="">
+                          <p>September 30, 2021</p>
+                          <h1>Healthy Lifestyle</h1> 
+                          <p>Eu mea audiam equidem, has ad dolore officiis. No zril solet minimum sit</p>
+                          <button style="height: 50px; width: 120px;">Read More</button>
+                    </div>
+                </div>
+        </div>
+    </div>        
+    
+
+    <div id="websites">
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmBmYfsi1d87W0DtUpn21gD2zrvl_cxHhfpCAX6sjMuzZRds41" alt="" height="120px" width="120px">
+             <h1>Worldwide</h1>
+             <p>Vis ne postulant principes</p>
+             <p>accommodare ius modo</p>
+        </div>
+        <div>
+             <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRTf3OcI0oDdEFHuRBLz7l6PwzioR6rN2PGZkW9XdYwdbyM95uR" alt="" height="120px" width="120px">
+             <h1>Online Shopping</h1>
+             <p>Vis ne postulant principes</p>
+             <p>accommodare ius modo</p>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRbyudqzOMZnAHEjA9cGUYhZmSWkTdWdNzKfvXKhcRTJcBsBg8C" alt="" height="120px" width="120px">
+            <h1>Creativity</h1>
+             <p>Vis ne postulant principes</p>
+             <p>accommodare ius modo</p>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh6Zi7-mC8zdSQlT9nVzMEPY6ZwxHapPKFEO_CAY-CmGd3zBYf" alt="" height="120px" width="120px">
+            <h1>Special Offers</h1>
+             <p>Vis ne postulant principes</p>
+             <p>accommodare ius modo</p>
+        </div>
+    </div>
+
+    <div id="Running">
+           <div id="new">
+                <img src="https://mobirise.com/extensions/showcasem5/product-presentation/assets/images/image10-1051x701.jpg" alt="" height="500px" width="800px">
+           </div> 
+           <div id="new1"> 
+                <h1 style="font-size: 50px;">New releases</h1>
+                <p style="font-size:20px;">Running
+                Energistically create cross-media niche </p>
+                <p style="font-size:20px ;">markets rather than standards compliant content</p>
+                <button style="width: 120px; height: 50px;">Read More</button>
+            </div>
+    </div>
+
+
+    <div id="Nature">
+            <div id="leaves">
+                <img src="https://mobirise.com/extensions/showcasem5/product-presentation/assets/images/image11-800x800.jpg" alt="" height="500px" width="500px">
+            </div>
+             <div>
+                <h1>Our brand new shoes</h1>
+            </div>
+                 <div id="natd1">
+                    <div id="dev">
+                        <h1>Development</h1>
+                        <p>95%</p>
+                    </div>
+                    <div id="eng">
+                        <h1>Engineering</h1>
+                        <p>90%</p>
+                    </div>
+                     <div id="des">
+                             <h1>Design</h1>
+                             <p>85%</p>
+                    </div>
+                 </div>
+     </div>
+     
+
+    <div id="present">
+        <div id="productimg">
+            <img src="https://mobirise.com/extensions/showcasem5/product-presentation/assets/images/logo1.png" alt="" height="80px" width="80px">
+             <h1>Product Presentation</h1>
+        </div>
+        <div>
+             <p style="font-size: 50px;">The best and easiest way</p>
+            <p style="font-size: 50px;">to introduce your product</p>
+            <p style="font-size: 20px;">Collaboratively conceptualize orthogonal core competencies through effective solutions.</p>
+            <button style="width: 150px; height: 50px;">View More</button>
+        </div>
+    </div>
+    <footer>
+        <nav>Copyright 2025 Mobirise. All Rights Reserved</nav>
+    </footer>
+
+</div> 
+</div>
+</body>
+</html>
